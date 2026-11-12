@@ -3,24 +3,18 @@ You are helping me write a small, production-quality script during a timed techn
 ## Task (verbatim from the assessment)
 Scripting Assessment:
 
-1. Set Up a GitHub Sandbox
-   - Create a repository in your GitHub account.
-   - Use the GitHub CLI to make all changes, including commits and pull requests.
-2. Make changes to your repository
-   - Make a feature branch with some changes
-   - Merge changes into the repository's master branch using necessary pull requests.
-     - Create a Ruby Script
-       - Write a script to fetch merged pull request data from the GitHub API.
-       - Output the results to a CSV file. The CSV should include:
-         a. Information about the author of the PR (GitHub user details).
-         b. Information about the user who merged the PR (same as the author in this synthetic exercise).
-         c. Details of the PR:
-            i. Number of additions.
-            ii. Number of deletions.
-            iii. Timestamp when the PR was created.
-            iv. Timestamp when the PR was merged.
-            v. Time difference between creation and merge.
-3. Deliverables
+1. Create a Ruby Script
+   - Write a script to fetch merged pull request data from the GitHub API.
+   - Output the results to a CSV file. The CSV should include:
+      - Information about the author of the PR (GitHub user details).
+      - Information about the user who merged the PR (same as the author in this synthetic exercise).
+      - Details of the PR:
+         - Number of additions.
+         - Number of deletions.
+         - Timestamp when the PR was created.
+         - Timestamp when the PR was merged.
+         - Time difference between creation and merge.
+2. Deliverables
    - The GitHub repository showcasing commits and pull requests.
    - The Ruby/Rails script.
    - The generated CSV file contains the required data.
